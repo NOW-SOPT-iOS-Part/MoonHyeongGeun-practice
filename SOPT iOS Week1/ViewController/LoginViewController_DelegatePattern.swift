@@ -40,7 +40,7 @@ final class LoginViewController_DelegatePattern: UIViewController {
     }()
     
     private func pushToWelcomeVC() {
-        let welcomeViewController = WelcomeViewController_Delegate_Pattern()
+        let welcomeViewController = WelcomeViewController_DelegatePattern()
         welcomeViewController.delegate = self
         welcomeViewController.setLabelText(id: idTextField.text)
         self.navigationController?.pushViewController(welcomeViewController, animated: true)
