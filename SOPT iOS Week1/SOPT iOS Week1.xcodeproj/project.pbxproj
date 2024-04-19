@@ -23,6 +23,8 @@
 		2E6F0CD32BB9BFDE005B755B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F0CD22BB9BFDE005B755B /* Assets.xcassets */; };
 		2E6F0CD62BB9BFDE005B755B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F0CD52BB9BFDE005B755B /* Base */; };
 		2E6F0CDE2BB9C20C005B755B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F0CDD2BB9C20C005B755B /* LoginViewController.swift */; };
+		2EB2177C2BD225C600C8C9C8 /* LoginViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2177B2BD225C600C8C9C8 /* LoginViewController_DelegatePattern.swift */; };
+		2EB2177E2BD225DE00C8C9C8 /* WelcomeViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2177D2BD225DE00C8C9C8 /* WelcomeViewController_DelegatePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		2E6F0CD52BB9BFDE005B755B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E6F0CD72BB9BFDE005B755B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6F0CDD2BB9C20C005B755B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2EB2177B2BD225C600C8C9C8 /* LoginViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		2EB2177D2BD225DE00C8C9C8 /* WelcomeViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,13 @@
 			isa = PBXGroup;
 			children = (
 				2E462DC82BBC2DB800420FFA /* Font */,
-				2E6F0CC82BB9BFDB005B755B /* SOPT iOS Week1 */,
+				2E6F0CC92BB9BFDB005B755B /* AppDelegate.swift */,
+				2E6F0CCB2BB9BFDB005B755B /* SceneDelegate.swift */,
+				2E462DF62BBC345F00420FFA /* Extensions.swift */,
+				2E6F0CD22BB9BFDE005B755B /* Assets.xcassets */,
+				2E6F0CD42BB9BFDE005B755B /* LaunchScreen.storyboard */,
+				2E6F0CD72BB9BFDE005B755B /* Info.plist */,
+				2E6F0CC82BB9BFDB005B755B /* ViewController */,
 				2E6F0CC72BB9BFDB005B755B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,19 +100,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E6F0CC82BB9BFDB005B755B /* SOPT iOS Week1 */ = {
+		2E6F0CC82BB9BFDB005B755B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2E6F0CC92BB9BFDB005B755B /* AppDelegate.swift */,
-				2E6F0CCB2BB9BFDB005B755B /* SceneDelegate.swift */,
 				2E6F0CDD2BB9C20C005B755B /* LoginViewController.swift */,
 				2E25B80F2BBCF1C400130DC7 /* WelcomeViewController.swift */,
-				2E462DF62BBC345F00420FFA /* Extensions.swift */,
-				2E6F0CD22BB9BFDE005B755B /* Assets.xcassets */,
-				2E6F0CD42BB9BFDE005B755B /* LaunchScreen.storyboard */,
-				2E6F0CD72BB9BFDE005B755B /* Info.plist */,
+				2EB2177B2BD225C600C8C9C8 /* LoginViewController_DelegatePattern.swift */,
+				2EB2177D2BD225DE00C8C9C8 /* WelcomeViewController_DelegatePattern.swift */,
 			);
-			path = "SOPT iOS Week1";
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +192,8 @@
 			files = (
 				2E6F0CDE2BB9C20C005B755B /* LoginViewController.swift in Sources */,
 				2E25B8102BBCF1C400130DC7 /* WelcomeViewController.swift in Sources */,
+				2EB2177E2BD225DE00C8C9C8 /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				2EB2177C2BD225C600C8C9C8 /* LoginViewController_DelegatePattern.swift in Sources */,
 				2E462DF72BBC345F00420FFA /* Extensions.swift in Sources */,
 				2E6F0CCA2BB9BFDB005B755B /* AppDelegate.swift in Sources */,
 				2E6F0CCC2BB9BFDB005B755B /* SceneDelegate.swift in Sources */,
