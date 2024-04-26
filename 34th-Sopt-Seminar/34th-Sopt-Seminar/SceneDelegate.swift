@@ -10,7 +10,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = UIWindow(windowScene: windowScene)
 
-        let navigationController = UINavigationController(rootViewController: ChatViewController())
+        let navigationController = UINavigationController(rootViewController: ItemViewController())
         
         self.window?.rootViewController = navigationController
 
