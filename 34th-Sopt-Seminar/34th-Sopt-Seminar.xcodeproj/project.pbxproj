@@ -29,6 +29,8 @@
 		2EF83C3F2BDAE7F7007DCDA3 /* LoginViewController_Snapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF83C382BDAE7F7007DCDA3 /* LoginViewController_Snapkit.swift */; };
 		2EF83C402BDAE7F7007DCDA3 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF83C392BDAE7F7007DCDA3 /* WelcomeViewController_Closure.swift */; };
 		2EF83C412BDAE7F7007DCDA3 /* WelcomeViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF83C3A2BDAE7F7007DCDA3 /* WelcomeViewController_DelegatePattern.swift */; };
+		2EF83C582BDBB957007DCDA3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF83C572BDBB957007DCDA3 /* LoginView.swift */; };
+		2EF83C5A2BDBBA0C007DCDA3 /* LoginViewController_CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF83C592BDBBA0B007DCDA3 /* LoginViewController_CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		2EF83C382BDAE7F7007DCDA3 /* LoginViewController_Snapkit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController_Snapkit.swift; sourceTree = "<group>"; };
 		2EF83C392BDAE7F7007DCDA3 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
 		2EF83C3A2BDAE7F7007DCDA3 /* WelcomeViewController_DelegatePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		2EF83C572BDBB957007DCDA3 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "../../../../../Desktop/MoonHyeongGeun-practice/34th-Sopt-Seminar/34th-Sopt-Seminar/Week3/LoginView.swift"; sourceTree = "<group>"; };
+		2EF83C592BDBBA0B007DCDA3 /* LoginViewController_CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController_CustomView.swift; path = "../../../../../Desktop/MoonHyeongGeun-practice/34th-Sopt-Seminar/34th-Sopt-Seminar/Week3/LoginViewController_CustomView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		2EF83BB72BDADCF1007DCDA3 /* 34th-Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				2EF83C562BDBB908007DCDA3 /* Week3 */,
 				2EF83BD62BDADE39007DCDA3 /* Week1 */,
 				2EF83C3B2BDAE7F7007DCDA3 /* Week2 */,
 				2EF83BDF2BDADF01007DCDA3 /* Font */,
@@ -126,17 +131,9 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		2EF83C342BDAE7F7007DCDA3 /* Week3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Week3;
-			sourceTree = "<group>";
-		};
 		2EF83C3B2BDAE7F7007DCDA3 /* Week2 */ = {
 			isa = PBXGroup;
 			children = (
-				2EF83C342BDAE7F7007DCDA3 /* Week3 */,
 				2EF83C352BDAE7F7007DCDA3 /* LoginViewController_AutoLayout.swift */,
 				2EF83C362BDAE7F7007DCDA3 /* LoginViewController_Closure.swift */,
 				2EF83C372BDAE7F7007DCDA3 /* LoginViewController_DelegatePattern.swift */,
@@ -146,6 +143,15 @@
 			);
 			name = Week2;
 			path = "../../../../Desktop/MoonHyeongGeun-practice/34th-Sopt-Seminar/34th-Sopt-Seminar/Week2";
+			sourceTree = "<group>";
+		};
+		2EF83C562BDBB908007DCDA3 /* Week3 */ = {
+			isa = PBXGroup;
+			children = (
+				2EF83C572BDBB957007DCDA3 /* LoginView.swift */,
+				2EF83C592BDBBA0B007DCDA3 /* LoginViewController_CustomView.swift */,
+			);
+			path = Week3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +239,11 @@
 				2EF83C402BDAE7F7007DCDA3 /* WelcomeViewController_Closure.swift in Sources */,
 				2EF83C3D2BDAE7F7007DCDA3 /* LoginViewController_Closure.swift in Sources */,
 				2EF83C412BDAE7F7007DCDA3 /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				2EF83C582BDBB957007DCDA3 /* LoginView.swift in Sources */,
 				2EF83C3E2BDAE7F7007DCDA3 /* LoginViewController_DelegatePattern.swift in Sources */,
 				2EF83BD72BDADE39007DCDA3 /* LoginViewController.swift in Sources */,
 				2EF83BCD2BDADDD5007DCDA3 /* Extensions.swift in Sources */,
+				2EF83C5A2BDBBA0C007DCDA3 /* LoginViewController_CustomView.swift in Sources */,
 				2EF83C3F2BDAE7F7007DCDA3 /* LoginViewController_Snapkit.swift in Sources */,
 				2EF83C3C2BDAE7F7007DCDA3 /* LoginViewController_AutoLayout.swift in Sources */,
 			);
