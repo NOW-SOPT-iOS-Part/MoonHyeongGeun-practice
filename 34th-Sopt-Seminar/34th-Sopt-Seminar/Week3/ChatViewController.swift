@@ -37,6 +37,19 @@ extension ChatViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 72
     }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerLabel = UILabel()
+        headerLabel.text = "채팅"
+        headerLabel.font = UIFont(name: "Pretendard-Bold", size: 18)
+        headerLabel.textAlignment = .left
+        headerLabel.backgroundColor = .white
+        return headerLabel
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat{
+        return 44
+    }
 }
 
 extension ChatViewController: UITableViewDataSource {

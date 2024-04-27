@@ -15,16 +15,16 @@ final class ChatTableViewCell: UITableViewCell {
     }()
     private let placeLabel: UILabel = {
         let label = UILabel()
-        label.textColor = UIColor(red: 156, green: 156, blue: 156, alpha: 1)
+        label.textColor = .gray
         label.textAlignment = .left
-        label.font = UIFont(name: "Pretendard-Bold", size: 12)
+        label.font = UIFont(name: "Pretendard-Light", size: 12)
         return label
     }()
     private let chatLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
         label.textAlignment = .left
-        label.font = UIFont(name: "Pretendard-Bold", size: 14)
+        label.font = UIFont(name: "Pretendard-Light", size: 14)
         return label
     }()
     
