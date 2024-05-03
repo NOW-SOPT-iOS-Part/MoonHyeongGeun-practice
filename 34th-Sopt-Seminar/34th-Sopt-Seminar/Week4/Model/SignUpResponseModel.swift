@@ -1,6 +1,6 @@
 import Foundation
 
-struct SignUpResponseModel: Codable {
+struct SignUpResponseModel: Codable { //typealias
     let code: Int
     let message: String
 }

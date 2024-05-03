@@ -116,18 +116,34 @@
 		2E24BAF32BDCBA930094A85F /* Week4 */ = {
 			isa = PBXGroup;
 			children = (
+				2E24BB0E2BDCD6DE0094A85F /* Model */,
+				2E24BB0D2BDCD6B00094A85F /* HTTP */,
 				2E24BAF72BDCCA9E0094A85F /* Config.swift */,
 				2E24BAF92BDCCDE40094A85F /* NetworkResult.swift */,
 				2E24BAFB2BDCCDF50094A85F /* MoyaLoggingPlugin.swift */,
-				2E24BAFF2BDCCE970094A85F /* SignUpRequestModel.swift */,
-				2E24BB012BDCCEB30094A85F /* SignUpResponseModel.swift */,
 				2E24BB032BDCCEC00094A85F /* SignUpViewController.swift */,
-				2E24BB052BDCCED90094A85F /* UserTargetType.swift */,
-				2E24BB072BDCCEE90094A85F /* UserService.swift */,
-				2E24BB0B2BDCCF450094A85F /* UserInfoResponseModel.swift */,
 				2E24BB092BDCCF080094A85F /* CheckUserInfoViewController.swift */,
 			);
 			path = Week4;
+			sourceTree = "<group>";
+		};
+		2E24BB0D2BDCD6B00094A85F /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				2E24BB072BDCCEE90094A85F /* UserService.swift */,
+				2E24BB052BDCCED90094A85F /* UserTargetType.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		2E24BB0E2BDCD6DE0094A85F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E24BAFF2BDCCE970094A85F /* SignUpRequestModel.swift */,
+				2E24BB012BDCCEB30094A85F /* SignUpResponseModel.swift */,
+				2E24BB0B2BDCCF450094A85F /* UserInfoResponseModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2EF83BAC2BDADCF1007DCDA3 = {

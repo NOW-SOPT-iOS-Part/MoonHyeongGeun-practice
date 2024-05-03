@@ -3,7 +3,7 @@ import Foundation
 import Moya
 
 
-enum UserTargetType {
+enum UserTargetType { // 2번: 서버통신 요청서 작성 과정, enum 통해 분기처리, api 문서 정보를 넣어주는 것
     case getUserInfo(memberId: String)
     case signUp(request: SignUpRequestModel)
 }

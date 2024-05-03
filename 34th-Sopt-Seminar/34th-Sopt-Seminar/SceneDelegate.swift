@@ -10,7 +10,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = UIWindow(windowScene: windowScene)
 
-        let navigationController = UINavigationController(rootViewController: LoginViewController_CustomView())
+        let navigationController = UINavigationController(rootViewController:SignUpViewController())
         
         self.window?.rootViewController = navigationController
 

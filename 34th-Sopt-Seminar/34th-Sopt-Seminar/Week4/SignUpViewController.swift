@@ -135,7 +135,7 @@ final class SignUpViewController: UIViewController {
         rootView.signUpButton.addTarget(self, action: #selector(signUpButtonDidTap), for: .touchUpInside)
     }
     
-    @objc private func signUpButtonDidTap() {
+    @objc private func signUpButtonDidTap() { //Codable 객체 만드는 과정
         guard let id = rootView.idTextField.text else { return }
         guard let password = rootView.passwordTextField.text else { return }
         guard let nickName = rootView.nickNameTextField.text else { return }
@@ -166,6 +166,8 @@ final class SignUpViewController: UIViewController {
                 print("네트워크 오류입니다")
             }
         }
+        print("Sign Up button tapped")
+        print(id, password, nickName, phoneNumber)
     }
     
     private func pushToCheckUserInfoVC() {
