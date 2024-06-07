@@ -1,12 +1,16 @@
 import UIKit
 final class LoginView: UIView {
     
-    override init(
-        frame: CGRect
-    ) { // UIView 상속받은 custom class의 생성자
-        super.init(
-            frame: frame
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        addSubviews(
+            titleLabel,
+            idTextField,
+            passwordTextField,
+            loginButton
         )
+        setLayout()
+        
     }
     
     @available(
