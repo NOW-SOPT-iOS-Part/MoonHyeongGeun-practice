@@ -9,7 +9,6 @@ final class LoginViewController_CustomView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.backgroundColor = .white
         setTarget()
     }

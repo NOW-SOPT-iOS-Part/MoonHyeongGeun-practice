@@ -1,5 +1,13 @@
 import UIKit
 
+struct ChatModel {
+    let profileImg: UIImage
+    let name: String
+    let place: String
+    let message: String
+    let itemImg: UIImage
+}
+
 extension ChatModel {
     static func dummy() -> [ChatModel] {
         return [
